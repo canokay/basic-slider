@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slider{
+	width:320px;
+	height:485px;
+	background:#ccc;
+	margin:50px auto;
+	box-shadow:0px 0px 10px 1px rgba(0,0,0,0.4);
+	overflow:hidden;/*İçine eklenen nesneler dışarıya taşan nesneleri ilgili göstermez*/
+}
+
+#slider ul{
+	height:1100px;	
+}
+
+#slider ul li{
+	position:relative;
+	display:block;
+	height:100px;
+	box-shadow:0px 0px 25px 10px rgba(0,0,0,0.5);
+	border-TOP:1px solid #888;
+	transition:all 0.5s;
+	
+}
+
+#slider ul:hover li{
+	height:40px;
+}
+
+#slider ul li:hover{
+	height:320px;
+}
+
+.img_text{
+	width:640px;
+	position:absolute;
+	padding:2PX;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.4);
+}
+
+.img_text a{
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+	color:#eee;
+	box-sizing:border-box;
+	display:block;
+	padding-left:2px;
+	padding-bottom:2px;
+}
+
+
+
+.img_text a p{
+	font-size:12px;	
+}
